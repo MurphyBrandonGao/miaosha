@@ -53,11 +53,34 @@ IntelliJ IDEA 2017.3.1
 ## 项目描述
 
 1. 使用分布式Seesion，让多台服务器可以响应。
+
 2. 使用redis做缓存提高访问速度和并发量，减少数据库压力。
+
 3. 页面缓存+URL缓存+对象缓存，让页面优化，提升访问速度。
+
 4. 使用页面静态化，缓存页面至浏览器，前后端分离降低服务器压力。
+
 5. 使用消息队列完成异步下单，提升用户体验，削峰和降流。
+
 6. 安全性优化：双重md5密码校验，秒杀接口地址的隐藏，接口限流防刷，数学公式验证码。
+
+## 图片演示
+
+商品列表页面
+
+![](https://github.com/gb145234/miaosha/blob/master/images/list.png)
+
+商品详情页面
+
+![](https://github.com/gb145234/miaosha/blob/master/images/goodsdetail.png)
+
+商品秒杀倒计时
+
+![](https://github.com/gb145234/miaosha/blob/master/images/wait.png)
+
+成功秒杀页面
+
+![](https://github.com/gb145234/miaosha/blob/master/images/miaoshasuccess.png)
 
 
 ## 作者
