@@ -1,0 +1,6 @@
+
+Csquid:S1444")Make this "public static log" field final(¡ËñÒøÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"OMake log a static final constant or non-public and provide accessors if needed.(¡ËñÒøÿÿÿÿ
+Xsquid:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(…‘—úÿÿÿÿ
+Xsquid:S3752">Add a "method" parameter to this "@RequestMapping" annotation.(Î£¨åúÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Íß’c

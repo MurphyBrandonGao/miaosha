@@ -1,0 +1,10 @@
+
+rsquid:S3008G"TRename this field "WAIT_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ñÅú8ûšªëƒ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÛŸºÒøÿÿÿÿ8Úªöèƒ.
+nsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(Ö‰óéÿÿÿÿÿ8Úªöèƒ.
+V
+squid:S106c"9Replace this use of System.out or System.err by a logger.(ì‘„Ï8éÞÂíƒ.
+isquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(¬ï±™8Úªöèƒ.
+ysquid:S3008E"VRename this field "EXPIRE_TIME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áô´þÿÿÿÿ8Þ±›éƒ.
+Xsquid:S1141\"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8í¿¾íƒ.
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸ÙÀ”ùÿÿÿÿ8Úªöèƒ.

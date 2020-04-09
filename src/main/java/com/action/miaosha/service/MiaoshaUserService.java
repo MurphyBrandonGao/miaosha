@@ -44,6 +44,7 @@ public class MiaoshaUserService {
         return user;
     }
 
+    // 修改用户密码
     public boolean updatePassword(String token, long id, String formPass) {
         // 取user
         MiaoshaUser user = getById(id);
@@ -55,7 +56,7 @@ public class MiaoshaUserService {
         toBeUpdate.setId(id);
         toBeUpdate.setPassword(MD5Util.formPassToDBPass(formPass, user.getSalt()));
         miaoshaUserDao.update(toBeUpdate);
-        // 再处理缓存
+        // 先删除缓存。再添加缓存
         redisService.delete(MiaoshaUserKey.getById, "" + id);
         user.setPassword(toBeUpdate.getPassword());
         redisService.set(MiaoshaUserKey.token, token, user);

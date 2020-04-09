@@ -47,6 +47,7 @@ public class GoodsController {
     @Autowired
     ApplicationContext applicationContext;
 
+    // 页面缓存
     @RequestMapping(value = "/to_list", produces = "text/html")
     @ResponseBody
     public String list(HttpServletRequest request, HttpServletResponse response, Model model, MiaoshaUser user) {
@@ -62,7 +63,6 @@ public class GoodsController {
             return html;
         }
 
-
         // 手动渲染
         SpringWebContext springWebContext = new SpringWebContext(request, response, request.getServletContext(),
                 request.getLocale(), model.asMap(), applicationContext);
@@ -73,6 +73,7 @@ public class GoodsController {
         return html;
     }
 
+    // URL缓存
     @RequestMapping(value = "/to_detail2/{goodsId}", produces = "text/html")
     @ResponseBody
     public String detail2(HttpServletRequest request, HttpServletResponse response, Model model,
@@ -118,6 +119,7 @@ public class GoodsController {
         return html;
     }
 
+    // 页面静态化
     @RequestMapping(value="/detail/{goodsId}")
     @ResponseBody
     public Result<GoodsDetailVo> detail(HttpServletRequest request, HttpServletResponse response, Model model, MiaoshaUser user,
